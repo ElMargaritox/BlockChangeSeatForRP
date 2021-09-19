@@ -32,19 +32,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>E:\OneDrive\Documentos\LIBRERIAS\Librerias papus\Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>E:\OneDrive\Documentos\LIBRERIAS\Librerias papus\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>E:\OneDrive\Escritorio\EnvyRobbery\EnvyRobbery\bin\Debug\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.API">
-      <HintPath>E:\OneDrive\Documentos\LIBRERIAS\Librerias papus\Rocket.API.dll</HintPath>
+      <HintPath>E:\OneDrive\Escritorio\EnvyRobbery\EnvyRobbery\bin\Debug\Rocket.API.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.Core">
-      <HintPath>E:\OneDrive\Documentos\LIBRERIAS\Librerias papus\Rocket.Core.dll</HintPath>
+      <HintPath>E:\OneDrive\Escritorio\EnvyRobbery\EnvyRobbery\bin\Debug\Rocket.Core.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.Unturned">
-      <HintPath>E:\OneDrive\Documentos\LIBRERIAS\Librerias papus\Rocket.Unturned.dll</HintPath>
+      <HintPath>E:\OneDrive\Escritorio\EnvyRobbery\EnvyRobbery\bin\Debug\Rocket.Unturned.dll</HintPath>
+    </Reference>
+    <Reference Include="Steamworks.NET">
+      <HintPath>E:\OneDrive\Escritorio\EnvyRobbery\EnvyRobbery\bin\Debug\Steamworks.NET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,10 +55,10 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>E:\OneDrive\Documentos\LIBRERIAS\Librerias papus\UnityEngine.dll</HintPath>
+      <HintPath>E:\OneDrive\Escritorio\EnvyRobbery\EnvyRobbery\bin\Debug\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>E:\OneDrive\Documentos\LIBRERIAS\Librerias papus\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>E:\OneDrive\Escritorio\EnvyRobbery\EnvyRobbery\bin\Debug\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +66,10 @@
     <Compile Include="BlockChangeSeatForRPConfig.cs" />
     <Compile Include="Savedata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="E:\OneDrive\Escritorio\EnvyRobbery\EnvyRobbery\bin\Debug\Assembly-CSharp.dll" />
+    <Analyzer Include="E:\OneDrive\Escritorio\EnvyRobbery\EnvyRobbery\bin\Debug\Steamworks.NET.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
