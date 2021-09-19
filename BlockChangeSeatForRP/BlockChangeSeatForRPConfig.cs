@@ -7,7 +7,7 @@ using Rocket.API;
 
 namespace BlockChangeSeatForRP
 {
-    public class Config : IRocketPluginConfiguration
+    public class BlockChangeSeatForRPConfig : IRocketPluginConfiguration
     {
         public int cooldown { get; set; }
         public bool Lock_to_change_seats { get; set; }

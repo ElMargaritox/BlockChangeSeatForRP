@@ -19,9 +19,9 @@ using Logger = Rocket.Core.Logging.Logger;
 
 namespace BlockChangeSeatForRP
 {
-    public class Class1 : RocketPlugin<Config>
+    public class BlockChangeSeatForRPPlugin : RocketPlugin<BlockChangeSeatForRPConfig>
     {
-        public Class1 Instance;
+        public BlockChangeSeatForRPPlugin Instance;
         public List<CSteamID> EnCooldown { get; set; }
         public Timer Reloj { get; set; }
         protected override void Load()
